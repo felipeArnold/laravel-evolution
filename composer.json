@@ -1,0 +1,31 @@
+{
+    "name": "felipewustarnold/laravel-evolution",
+    "description": "Laravel Evolution is a package that provides a set of tools and features to enhance the development experience in Laravel applications.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Felipewustarnold\\LaravelEvolution\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "felipewustarnold",
+            "email": "felipearnold.94@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "php": "^8.2|8.3",
+      "laravel/framework": "^12.0"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Felipewustarnold\\LaravelEvolution\\LaravelEvolutionServiceProvider"
+        ],
+          "aliases": {
+              "LaravelEvolution": "Felipewustarnold\\LaravelEvolution\\Facades\\LaravelEvolution"
+          }
+      }
+    }
+}
